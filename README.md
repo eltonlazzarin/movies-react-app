@@ -70,6 +70,9 @@ $ cd movies-react-app
 # Install the dependencies
 $ yarn
 
+# Changes
+$ Rename .env.example to .env and add your own ID
+
 # Run the web app
 $ yarn start
 ```
