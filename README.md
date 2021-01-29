@@ -29,7 +29,15 @@
 ## 👨🏻‍💻 About the project
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/eltonlazzarin/movies-react-app/blob/main/screenshots/01.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/eltonlazzarin/movies-react-app/blob/main/screenshots/02.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/eltonlazzarin/movies-react-app/blob/main/screenshots/03.png">
 </p>
 
 <p>Filmes 3D is a project developed in ReactJS and aims to list films through research. In addition to searching for movies, the user can select a specific movie to show more details on another page and if you prefer you can select it as a favorite. This feature is also available by clicking on the heart above the desired movie card on the home screen after searching for a movie.
