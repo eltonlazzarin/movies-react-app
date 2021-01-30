@@ -26,9 +26,9 @@ export default function Main() {
         });
 
       localStorage.setItem('@Movie:Search', state.search);
-    } //catch (error) {
+    } catch () {
       //console.log(error);
-    //}
+    }
   };
 
   useEffect(() => {
