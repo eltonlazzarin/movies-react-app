@@ -48,7 +48,7 @@ export default function Main() {
   }, []);
 
   if (state.movies === undefined) {
-    //alert('Too many results. Please refine your search.');
+    // alert('Too many results. Please refine your search.');
     window.location.reload(false);
   }
 
