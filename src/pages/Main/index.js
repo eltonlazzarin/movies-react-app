@@ -27,6 +27,7 @@ export default function Main() {
 
       localStorage.setItem('@Movie:Search', state.search);
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.log(error);
     }
   };
@@ -48,7 +49,8 @@ export default function Main() {
   }, []);
 
   if (state.movies === undefined) {
-    // alert('Too many results. Please refine your search.');
+    // eslint-disable-next-line no-alert
+    alert('Too many results. Please refine your search.');
     window.location.reload(false);
   }
 
