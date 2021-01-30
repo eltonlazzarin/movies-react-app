@@ -19,7 +19,7 @@ export default function Main() {
 
     try {
       await api
-        .get(`http://www.omdbapi.com/?s=${state.search}&apikey=${apiKey}`)
+        .get(`https://www.omdbapi.com/?s=${state.search}&apikey=${apiKey}`)
         .then((response) => {
           dispatch({ type: 'SET_MOVIES', payload: response.data.Search });
           dispatch({ type: 'SET_IS_LOADING', payload: true });
