@@ -20,7 +20,7 @@ export default function Movie() {
 
   useEffect(() => {
     api
-      .get(`http://www.omdbapi.com/?i=${params.id}&apikey=${apiKey}`)
+      .get(`https://www.omdbapi.com/?i=${params.id}&apikey=${apiKey}`)
       .then((response) => {
         dispatch({ type: 'SET_SINGLE_MOVIE', payload: response.data });
         dispatch({ type: 'SET_IS_LOADING', payload: false });
