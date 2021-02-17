@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> 
 	<img alt="Movies logo" src="https://github.com/eltonlazzarin/movies-react-app/blob/main/src/assets/logo.png" height="67px" width="71px" />
 </h1>
 
