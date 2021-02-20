@@ -60,6 +60,7 @@ export default function Main() {
       <Container>
         <form onSubmit={handleFetchData}>
           <Input
+            type="search"
             placeholder="Search movies..."
             value={state.search}
             onChange={(event) =>
